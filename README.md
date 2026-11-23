@@ -11,7 +11,7 @@ Computer Science & Economics student at **HKUST**, Hong Kong. I build LLM agents
 UROP research built on the open-source TradingAgents multi-agent trading framework. I cut a full run's token cost by **~77%**, built a look-ahead-safe Monte Carlo drawdown forecast, and ran a 4-ticker × 78-week backtest. The backtest showed the forecast held on three stocks and failed on UNH's crash, and the agents' signal had no demonstrated edge beyond run-to-run noise.
 `Python` `LangGraph` `OpenAI API` `DeepSeek API`
 
-<!-- MORNING CLIPS: hidden until Paradigm says the repo can be public. To show it, delete this whole line and the closing line under the block.
+
 ### [Morning Clips](https://github.com/LizaDmit/MorningClips_Agents_Code)
 A daily media-monitoring pipeline in production use, replacing a fully manual process. A Microsoft Copilot Studio agent with four chained prompt tools turns a PDF of press clips into a categorised report: Python/pypdf extraction, a small model for parsing and a reasoning model for categorising. A Word VBA macro formats the output in one pass. It was validated against four hand-made benchmark reports, and every report gets human review before it's issued.
 `Copilot Studio` `Prompt engineering` `Python` `VBA`
