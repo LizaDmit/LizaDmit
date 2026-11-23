@@ -1,40 +1,33 @@
 # Liza Dmitrienko
 
-Computer Science & Economics student at **HKUST**, Hong Kong. I build LLM agents and automation for finance and business workflows.
+**I build LLM agents and automation for finance, and test them until I know where they break.**<br>
+BEng Computer Science + BBA Economics dual degree at HKUST, Hong Kong (2028).
 
-- 🔬 **Research:** undergraduate researcher (UROP) on LLM agents for quantitative finance
-- ⚙️ **Work:** AI automation at Paradigm Consulting (freelance, after a summer 2026 internship)
+📫 [lizadmitrienko06@gmail.com](mailto:lizadmitrienko06@gmail.com) · [LinkedIn](https://www.linkedin.com/in/liza-dmitrienko-37a95329a)
 
-## Selected projects
+**Stack:** Python (pandas, NumPy) · C++ · SQL · R · VBA · Power Fx · LangGraph · OpenAI & DeepSeek APIs · Microsoft Copilot Studio · Git
 
-### [TradingAgents: cost & backtest research](https://github.com/LizaDmit/tradingagents-research)
-UROP research built on the open-source TradingAgents multi-agent trading framework. I cut a full run's token cost by **~77%**, built a look-ahead-safe Monte Carlo drawdown forecast, and ran a 4-ticker × 78-week backtest. The backtest showed the forecast held on three stocks and failed on UNH's crash, and the agents' signal had no demonstrated edge beyond run-to-run noise.
-`Python` `LangGraph` `OpenAI API` `DeepSeek API`
+## Experience
 
+- **AI Automation Specialist · Paradigm Consulting** (2026 – present). As a summer intern, I built two news-monitoring agents for client reporting. Now freelance, I'm designing a weekly news digest and an Excel-to-PowerPoint reporting pipeline.
+- **Undergraduate Researcher (UROP) · HKUST** (2026 – present). I work on LLM agents for quantitative finance: their cost, reliability and backtesting.
+- **Teaching Assistant · HKUST Computer Science** (2026). I guided 60+ students a week through programming and debugging.
 
-### [Morning Clips](https://github.com/LizaDmit/MorningClips_Agents_Code)
-A daily media-monitoring pipeline in production use, replacing a fully manual process. A Microsoft Copilot Studio agent with four chained prompt tools turns a PDF of press clips into a categorised report: Python/pypdf extraction, a small model for parsing and a reasoning model for categorising. A Word VBA macro formats the output in one pass. It was validated against four hand-made benchmark reports, and every report gets human review before it's issued.
-`Copilot Studio` `Prompt engineering` `Python` `VBA`
--->
+## Featured work
 
-### [HKUST Week Planner](https://github.com/LizaDmit/hkust-week-planner)
-Scrapes HKUST class-schedule pages into JSON and places course sections on a week grid so clashes are easy to spot. Data refreshes on a schedule twice a day, and the page warns you when it's stale.
-`Python` `Web scraping` `JavaScript`
+**[TradingAgents research](https://github.com/LizaDmit/TradingAgents)**: I profiled a multi-agent LLM trading system and cut tokens per run by **77%**. Then I backtested its stock ratings over 300+ runs on 4 tickers: they showed no robust signal and a 2–3 week news lag, and the Monte Carlo drawdown forecast failed on UNH's crash.<br>
+`Python` `LangGraph` `Monte Carlo` `Statistics`
 
-### [Ray tracer](https://github.com/LizaDmit/raytracer-cpp)
-A ray tracer written from scratch in C++17, following *Ray Tracing in One Weekend*. It has diffuse, metal and glass materials, antialiasing, a positionable camera and defocus blur.
-`C++` `CMake`
+**[HK media-monitoring agent](https://github.com/LizaDmit/hk-media-monitoring-agent)**: a daily financial-news briefing for a Hong Kong digital bank, built from 26 English and Chinese outlets. I fixed a 48% silent item loss by moving parsing from an LLM to Power Fx, which now extracts 1,290 / 1,290 items.<br>
+`Copilot Studio` `Power Fx` `Python`
 
-### [Price analytics CLI](https://github.com/LizaDmit/cpp-price-analytics)
-A C++ command-line tool that reads a daily price series from CSV and reports returns, annualised volatility, maximum drawdown and the peak 20-day rolling volatility.
-`C++17`
+**[Morning Clips](https://github.com/LizaDmit/MorningClips_Agents_Code)**: turns a daily PDF of press clips into a formatted media report. It's in production and cut consultant preparation time by **~40%**.<br>
+`Copilot Studio` `Python` `VBA`
 
-## Tools
+**Also in C++:** a [ray tracer](https://github.com/LizaDmit/raytracer-cpp) built from scratch, and a [price analytics CLI](https://github.com/LizaDmit/cpp-price-analytics) for returns, volatility and drawdown.
 
-**Languages:** Python · C++ · JavaScript / HTML / CSS · VBA · Shell
-**AI & automation:** LangGraph · OpenAI and DeepSeek APIs · Microsoft Copilot Studio · prompt engineering · backtesting · Monte Carlo simulation
-**Other:** Git · CMake
+## Achievements
 
-## Contact
-
-[LinkedIn](https://www.linkedin.com/in/liza-dmitrienko-37a95329a)
+- 🏆 Deloitte Case Competition finalist: top 8 of 230+ teams (2026)
+- 🎓 Dean's List · Belt and Road & HKUST Global Learners Scholarships (full tuition)
+- 🥇 National Top Scorer in Physics, Russia: top 0.01% of 91,000+ students
