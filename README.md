@@ -4,7 +4,6 @@ Computer Science & Economics student at **HKUST**, Hong Kong. I build LLM agents
 
 - 🔬 **Research:** undergraduate researcher (UROP) on LLM agents for quantitative finance
 - ⚙️ **Work:** AI automation at Paradigm Consulting (freelance, after a summer 2026 internship)
-- 🎯 **Looking for:** technical internships in AI, data and process automation
 
 ## Selected projects
 
