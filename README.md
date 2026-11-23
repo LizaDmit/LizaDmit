@@ -15,7 +15,7 @@ BEng Computer Science + BBA Economics dual degree at HKUST, Hong Kong (2028).
 
 ## Featured work
 
-**[TradingAgents research](https://github.com/LizaDmit/TradingAgents)**: I profiled a multi-agent LLM trading system and cut tokens per run by **77%**. Then I backtested its stock ratings over 300+ runs on 4 tickers: they showed no robust signal and a 2–3 week news lag, and the Monte Carlo drawdown forecast failed on UNH's crash.<br>
+**[TradingAgents research](https://github.com/LizaDmit/tradingagents-research)**: I profiled a multi-agent LLM trading system and cut tokens per run by **77%**. Then I backtested its stock ratings over 300+ runs on 4 tickers: they showed no robust signal and a 2–3 week news lag, and the Monte Carlo drawdown forecast failed on UNH's crash.<br>
 `Python` `LangGraph` `Monte Carlo` `Statistics`
 
 **[HK media-monitoring agent](https://github.com/LizaDmit/hk-media-monitoring-agent)**: a daily financial-news briefing for a Hong Kong digital bank, built from 26 English and Chinese outlets. I fixed a 48% silent item loss by moving parsing from an LLM to Power Fx, which now extracts 1,290 / 1,290 items.<br>
